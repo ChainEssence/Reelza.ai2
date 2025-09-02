@@ -137,3 +137,4 @@ reelza-landing/
 - `components/sections/` - Секции лендинга
 - `tailwind.config.ts` - Кастомная цветовая схема
 - `package.json` - Все необходимые зависимости
+

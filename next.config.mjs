@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: process.env.BUILD_STANDALONE ? 'standalone' : 'export',
-  trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/reelza-landing' : '',
+  output: process.env.BUILD_STANDALONE ? 'standalone' : undefined,
+  trailingSlash: false,
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
